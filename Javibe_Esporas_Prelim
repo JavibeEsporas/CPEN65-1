@@ -1,0 +1,22 @@
+#Javibe_Esporas_Prelim
+#Object: Person
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+person = Person("Ana",39)
+print(person.name)
+print(person.age)
+
+#Object: Rectangle
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def Area(self):
+        print(self.length * self.width)
+
+rect = Rectangle(7, 3)
+rect.Area()
