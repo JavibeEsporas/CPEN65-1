@@ -1,3 +1,4 @@
+#Calculating the area of a circle
 import math
 class Circle:
     def __init__(self, pi, r):
@@ -10,4 +11,3 @@ class Circle:
 
 circ = Circle(math.pi, 8) 
 circ.Area()
-
